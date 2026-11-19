@@ -111,7 +111,7 @@ int main(void)
 		}
 		if(key_state == 1){
     HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_9);
-    HAL_Delay(500);
+    HAL_Delay(250);
     }
     /* USER CODE END WHILE */
 

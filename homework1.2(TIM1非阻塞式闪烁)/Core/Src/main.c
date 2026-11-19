@@ -106,7 +106,7 @@ int main(void)
 	HAL_TIM_Base_Start_IT(&htim1);
   while (1)
   {
-		if( MyGetTick()-led_tick >= 500 ){
+		if( MyGetTick()-led_tick >= 250 ){
         led_tick = MyGetTick();
         HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_9);
 			  //HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
