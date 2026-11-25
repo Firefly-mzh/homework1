@@ -1,1 +1,4 @@
-所有外接LED均在PA9引脚，开关在PA0引脚
+作业1：所有外接LED均在PA9引脚，开关在PA0引脚
+
+作业2：PSC = 71, ARR = 19999 , THETA(角度) = (CCR-500)/2000*180
+      LED接TIM1_CHANNEL1(PA8) , 舵机接TIM2_CHANNEL2(PA1)
